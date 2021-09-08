@@ -11,6 +11,12 @@ html {
     /* font size = 10px. = 1rem */
 }
 
+@media only screen and (max-width: 375px) {
+    html {
+        font-size: 45%;
+    }
+}
+
 body {
     box-sizing: border-box;
     background-color: #fff;
@@ -133,8 +139,21 @@ a {
     grid-template-rows: 100%;
 }
 
+@media only screen and (max-width: 375px) {
+    .about {
+        grid-template-columns: 100%;
+        grid-template-rows: 70% 30%;
+    }
+}
+
 .about-text__container {
     padding: 5rem;
+}
+
+@media only screen and (max-width: 375px) {
+    .about-text__container {
+        padding: 1rem;
+    }
 }
 
 .about-image__container {
@@ -176,6 +195,12 @@ a {
     grid-template-columns: auto auto;
     grid-column-gap: 5rem;
     grid-row-gap: 10rem;
+}
+
+@media only screen and (max-width: 375px) {
+    .grid-container {
+        grid-template-columns: auto;
+    }
 }
 
 .grid-item {
