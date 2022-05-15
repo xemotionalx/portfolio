@@ -1,5 +1,5 @@
 .nav {
-  filter: drop-shadow(10px 8px 4px #AF77FE);
+  filter: drop-shadow(10px 8px 4px #af77fe);
   margin: 0;
   text-align: center;
 }
@@ -9,15 +9,15 @@
 }
 
 .nav a {
-  color:#000;
+  color: #000;
   text-decoration: none;
   z-index: 2;
 }
 
 .nav a {
-  background: #FFCDCC;
-  border: 1px #AB95AB solid;
-  box-shadow: 5px 5px #F778F5;
+  background: #ffcdcc;
+  border: 1px #ab95ab solid;
+  box-shadow: 5px 5px #f778f5;
   display: inline-block;
   overflow: hidden;
   padding: 5px 20px;
@@ -27,13 +27,13 @@
 
 .nav a:before,
 .nav a:after {
-  background: #F778F5;
+  background: #f778f5;
   bottom: -100%;
   content: "";
   height: 100%;
   position: absolute;
   right: 0;
-  transition: all .35s;
+  transition: all 0.35s;
   width: 100%;
   z-index: -1;
 }
@@ -44,7 +44,7 @@
 }
 
 .nav a:hover:before,
-.nav a:hover:after{
+.nav a:hover:after {
   bottom: 0;
   right: 0;
 }
@@ -55,4 +55,10 @@
 
 .nav a:not(:last-child) {
   margin-right: 2rem;
+}
+
+@media only screen and (max-width: 685px) {
+  .nav a {
+    margin-top: 1rem;
+  }
 }
