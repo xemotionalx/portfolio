@@ -20,7 +20,7 @@ export default function Navbar() {
             </a>
           </li>
           <li>
-            <a href="https://xemotionalx.github.io/assets/maiada-carpano-resume.pdf">resume</a>
+            <a href="https://xemotionalx.github.io/portfolio/assets/maiada-carpano-resume.pdf">resume</a>
           </li>
         </ul>
       </nav>
