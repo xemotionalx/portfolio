@@ -17,7 +17,9 @@ export default function Home() {
             />
           </div>
           <div className="home__feature-text">
-            <div className="speech-bubble">Hi, I&apos;m MaiAda!</div>
+            <div className="speech-bubble">
+              <p>Ask me about a11y!</p>
+            </div>
           </div>
         </div>
       </main>
