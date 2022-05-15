@@ -36,17 +36,31 @@ li:not(:last-child) {
 h1 {
   font-size: 48px;
   letter-spacing: 2px;
-  margin-bottom: -15px;
+  line-height: 100%;
+  margin-bottom: 1.5rem;
   text-align: center;
   text-shadow: 2px 2px #F778F5;
-  word-spacing: 10px;
+  word-spacing: 1rem;
 }
 
 h2 {
   letter-spacing: 3px;
-  margin-bottom: 48px;
+  line-height: 100%;
+  margin-bottom: 5rem;
   text-align: center;
-  word-spacing: 10px;
+  word-spacing: 1rem;
+}
+
+@media only screen and (max-width: 540px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media only screen and (max-width: 365px) {
+  html {
+    font-size: 50%;
+  }
 }
 
 /* LAYOUT: GRID */
