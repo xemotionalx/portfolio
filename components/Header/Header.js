@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import EmailIcon from "../../images/icons/email.svg";
+import TwitterIcon from "../../images/icons/twitter.svg";
 import GithubIcon from "../../images/icons/github.svg";
 import LinkedInIcon from "../../images/icons/linkedin.svg";
 
@@ -9,10 +9,13 @@ export default function Header() {
     <header className="home__header">
       <h1 className="home__header-title">MaiAda Carpano - Web Developer</h1>
       <div className="home__header-links">
-        <a href="https://www.linkedin.com/in/maiadac/" className="home__header-links-icon home__header-links-icon--ln">
+        <a
+          href="https://twitter.com/bubblegrungekk"
+          className="home__header-links-icon home__header-links-icon--ln"
+        >
           <Image
-            src={LinkedInIcon}
-            alt="click to see MaiAda's linked in"
+            src={TwitterIcon}
+            alt="click to visit MaiAda's twitter"
             width={22}
             height={22}
           />
@@ -23,15 +26,18 @@ export default function Header() {
         >
           <Image
             src={GithubIcon}
-            alt="click to see MaiAda's Github"
+            alt="click to visit MaiAda's Github"
             width={22}
             height={22}
           />
         </a>
-        <a href="mailto:maiadacx@gmail.com" className="home__header-links-icon home__header-links-icon--email">
+        <a
+          href="https://www.linkedin.com/in/maiadac/"
+          className="home__header-links-icon home__header-links-icon--email"
+        >
           <Image
-            src={EmailIcon}
-            alt="click to send MaiAda an email"
+            src={LinkedInIcon}
+            alt="click to visit MaiAda's linked in"
             width={22}
             height={22}
           />
