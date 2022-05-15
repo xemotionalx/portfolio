@@ -1,0 +1,58 @@
+.nav {
+  filter: drop-shadow(10px 8px 4px #AF77FE);
+  margin: 0;
+  text-align: center;
+}
+
+.nav ul {
+  margin-top: 3rem;
+}
+
+.nav a {
+  color:#000;
+  text-decoration: none;
+  z-index: 2;
+}
+
+.nav a {
+  background: #FFCDCC;
+  border: 1px #AB95AB solid;
+  box-shadow: 5px 5px #F778F5;
+  display: inline-block;
+  overflow: hidden;
+  padding: 5px 20px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.nav a:before,
+.nav a:after {
+  background: #F778F5;
+  bottom: -100%;
+  content: "";
+  height: 100%;
+  position: absolute;
+  right: 0;
+  transition: all .35s;
+  width: 100%;
+  z-index: -1;
+}
+
+.nav a:before,
+.nav a:after {
+  z-index: 0;
+}
+
+.nav a:hover:before,
+.nav a:hover:after{
+  bottom: 0;
+  right: 0;
+}
+
+.nav a:focus {
+  transform: translateY(2px);
+}
+
+.nav a:not(:last-child) {
+  margin-right: 2rem;
+}
