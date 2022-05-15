@@ -19,6 +19,11 @@ body {
   font-size: 1.8rem;
 }
 
+p {
+  font-size: 1.8rem;
+  line-height: 120%;
+}
+
 li {
   display: inline;
   list-style: none;
